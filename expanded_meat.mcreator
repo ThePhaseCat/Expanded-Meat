@@ -1,0 +1,184 @@
+{
+  "mod_elements": [
+    {
+      "name": "BlazeMeatEffect",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/HostileMobs"
+    },
+    {
+      "name": "BlazeMeat",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_meat",
+      "path": "~/Meat_Items/HostileMobs"
+    },
+    {
+      "name": "DrownedMeatEffect",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drowned_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/HostileMobs"
+    },
+    {
+      "name": "DrownedMeat",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drowned_meat",
+      "path": "~/Meat_Items/HostileMobs"
+    },
+    {
+      "name": "ShulkerMeatEffect",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shulker_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/HostileMobs"
+    },
+    {
+      "name": "ShulkerMeat",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shulker_meat",
+      "path": "~/Meat_Items/HostileMobs"
+    },
+    {
+      "name": "GlowSquidMeatEffect",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_squid_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/PassiveMobs"
+    },
+    {
+      "name": "GlowSquidMeat",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_squid_meat",
+      "path": "~/Meat_Items/PassiveMobs"
+    },
+    {
+      "name": "RabbitMeatEffect",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/PassiveMobs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.expanded_meat.glow_squid_meat": "Glow Squid Meat",
+      "item.expanded_meat.shulker_meat": "Shulker Meat",
+      "item.expanded_meat.blaze_meat": "Blaze Meat",
+      "item.expanded_meat.drowned_meat": "Drowned Meat"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "HostileMobs",
+            "children": []
+          },
+          {
+            "name": "PassiveMobs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Meat_Items",
+        "children": [
+          {
+            "name": "HostileMobs",
+            "children": []
+          },
+          {
+            "name": "PassiveMobs",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "expanded_meat",
+    "modName": "Expanded Meat",
+    "version": "1.0.0",
+    "author": "notepad.exe, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.expandedmeat",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200119518
+}
