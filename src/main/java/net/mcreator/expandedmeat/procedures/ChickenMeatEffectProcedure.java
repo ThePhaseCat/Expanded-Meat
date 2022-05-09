@@ -15,7 +15,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
-public class RabbitMeatEffectProcedure {
+public class ChickenMeatEffectProcedure {
 	@SubscribeEvent
 	public static void onUseItemFinish(LivingEntityUseItemEvent.Finish event) {
 		if (event != null && event.getEntity() != null) {
@@ -30,9 +30,9 @@ public class RabbitMeatEffectProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.COOKED_RABBIT) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.COOKED_CHICKEN) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 2400, 2));
+				_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 2400, 1));
 		}
 	}
 }

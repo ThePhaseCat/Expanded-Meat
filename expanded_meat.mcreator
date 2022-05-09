@@ -120,6 +120,49 @@
         ]
       },
       "path": "~/Procedures/PassiveMobs"
+    },
+    {
+      "name": "ChickenMeatEffect",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/PassiveMobs"
+    },
+    {
+      "name": "StriderMeatEffect",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strider_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/PassiveMobs"
+    },
+    {
+      "name": "StriderMeat",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strider_meat",
+      "path": "~/Meat_Items/PassiveMobs"
     }
   ],
   "variable_elements": [],
@@ -128,6 +171,7 @@
     "en_us": {
       "item.expanded_meat.glow_squid_meat": "Glow Squid Meat",
       "item.expanded_meat.shulker_meat": "Shulker Meat",
+      "item.expanded_meat.strider_meat": "Strider Meat",
       "item.expanded_meat.blaze_meat": "Blaze Meat",
       "item.expanded_meat.drowned_meat": "Drowned Meat"
     }

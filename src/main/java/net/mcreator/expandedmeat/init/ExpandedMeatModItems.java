@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.expandedmeat.item.StriderMeatItem;
 import net.mcreator.expandedmeat.item.ShulkerMeatItem;
 import net.mcreator.expandedmeat.item.GlowSquidMeatItem;
 import net.mcreator.expandedmeat.item.DrownedMeatItem;
@@ -22,4 +23,5 @@ public class ExpandedMeatModItems {
 	public static final RegistryObject<Item> DROWNED_MEAT = REGISTRY.register("drowned_meat", () -> new DrownedMeatItem());
 	public static final RegistryObject<Item> SHULKER_MEAT = REGISTRY.register("shulker_meat", () -> new ShulkerMeatItem());
 	public static final RegistryObject<Item> GLOW_SQUID_MEAT = REGISTRY.register("glow_squid_meat", () -> new GlowSquidMeatItem());
+	public static final RegistryObject<Item> STRIDER_MEAT = REGISTRY.register("strider_meat", () -> new StriderMeatItem());
 }
