@@ -163,6 +163,58 @@
       "locked_code": false,
       "registry_name": "strider_meat",
       "path": "~/Meat_Items/PassiveMobs"
+    },
+    {
+      "name": "SquidMeatEffect",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/PassiveMobs"
+    },
+    {
+      "name": "SquidMeat",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_meat",
+      "path": "~/Meat_Items/PassiveMobs"
+    },
+    {
+      "name": "BeeMeatEffect",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_meat_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/NeutralMobs"
+    },
+    {
+      "name": "BeeMeat",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_meat",
+      "path": "~/Meat_Items/NeutralMobs"
     }
   ],
   "variable_elements": [],
@@ -171,7 +223,9 @@
     "en_us": {
       "item.expanded_meat.glow_squid_meat": "Glow Squid Meat",
       "item.expanded_meat.shulker_meat": "Shulker Meat",
+      "item.expanded_meat.bee_meat": "Bee Meat",
       "item.expanded_meat.strider_meat": "Strider Meat",
+      "item.expanded_meat.squid_meat": "Squid Meat",
       "item.expanded_meat.blaze_meat": "Blaze Meat",
       "item.expanded_meat.drowned_meat": "Drowned Meat"
     }
@@ -189,6 +243,10 @@
           {
             "name": "PassiveMobs",
             "children": []
+          },
+          {
+            "name": "NeutralMobs",
+            "children": []
           }
         ]
       },
@@ -201,6 +259,10 @@
           },
           {
             "name": "PassiveMobs",
+            "children": []
+          },
+          {
+            "name": "NeutralMobs",
             "children": []
           }
         ]
